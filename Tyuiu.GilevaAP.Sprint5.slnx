@@ -29,4 +29,9 @@
     <Project Path="Tyuiu.GilevaAP.Sprint5.Task5.V1.Test/Tyuiu.GilevaAP.Sprint5.Task5.V1.Test.csproj" />
     <Project Path="Tyuiu.GilevaAP.Sprint5.Task5.V1/Tyuiu.GilevaAP.Sprint5.Task5.V1.csproj" />
   </Folder>
+  <Folder Name="/Task6/">
+    <Project Path="Tyuiu.GilevaAP.Sprint5.Task6.V6.Lib/Tyuiu.GilevaAP.Sprint5.Task6.V6.Lib.csproj" />
+    <Project Path="Tyuiu.GilevaAP.Sprint5.Task6.V6.Test/Tyuiu.GilevaAP.Sprint5.Task6.V6.Test.csproj" />
+    <Project Path="Tyuiu.GilevaAP.Sprint5.Task6.V6/Tyuiu.GilevaAP.Sprint5.Task6.V6.csproj" />
+  </Folder>
 </Solution>
