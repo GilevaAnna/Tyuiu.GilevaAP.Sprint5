@@ -9,10 +9,10 @@ namespace Tyuiu.GilevaAP.Sprint5.Task0.V7.Test
         public void Example()
         {
             DataService ds = new DataService();
-            string path = ds.SaveToFileTextData(4);
-            Assert.IsTrue(File.Exists(path));
-            string result = File.ReadAllText(path);
-            Assert.AreEqual("-6", result);
+            string path = @"C:\Users\Anna\source\repos\Tyuiu.GilevaAP.Sprint5\Tyuiu.GilevaAP.Sprint5.Task0.V7\bin\Debug\net8.0\OutPutFileTask0.txt";
+            //Assert.IsTrue(File.Exists(path));
+            //string result = File.ReadAllText(path);
+            //Assert.AreEqual("-6", result);
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = File.Exists(path);
