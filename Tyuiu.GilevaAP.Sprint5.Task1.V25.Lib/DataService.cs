@@ -22,8 +22,8 @@ namespace Tyuiu.GilevaAP.Sprint5.Task1.V25.Lib
             {
                 double s = Math.Sin(x);
                 double kk = Math.Cos(x);
-                double p = Math.Pow(x, 2);
-                y = ((2*s))/(3  * x + 1.2) + kk - 7*p;
+                
+                y = ((2*s))/(3  * x + 1.2) + kk - 7*x*2;
                 y = Math.Round(y, 2);
                 strV = Convert.ToString(y);
                 
