@@ -20,7 +20,10 @@ namespace Tyuiu.GilevaAP.Sprint5.Task1.V25.Lib
             string strV;
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = ((2*Math.Sin(x))/(3  *x + 1.2)) + Math.Cos(x) - 7*Math.Pow(x, 2);
+                double s = Math.Sin(x);
+                double kk = Math.Cos(x);
+                double p = Math.Pow(x, 2);
+                y = ((2*s))/(3  * x + 1.2) + kk - 7*p;
                 y = Math.Round(y, 2);
                 strV = Convert.ToString(y);
                 
